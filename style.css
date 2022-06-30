@@ -44,3 +44,8 @@
     width: calc(100% / 10);
     height: calc(100% / 10);
 }
+
+.active {
+    cursor: pointer;
+    background-color: lightskyblue;
+}
