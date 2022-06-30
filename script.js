@@ -26,3 +26,10 @@ btnStart.addEventListener('click', function () {
     }
 })
 
+function createNewCell() {
+    const cell = document.createElement('div');
+
+    cell.classList.add('cell');
+
+    return cell;
+}
